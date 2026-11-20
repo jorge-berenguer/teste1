@@ -1,0 +1,102 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+    background: black;
+    color: #f2f2f2;          /* texto claro: alto contraste no preto */
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;      /* tudo centralizado */
+}
+
+/* Coluna central estreita: facilita a leitura */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+/* ===== TÍTULOS ===== */
+h1.f {
+    font-size: 60px;
+    color: red;
+    padding: 30px 0 10px;
+    text-shadow: 0 0 15px red;
+}
+
+h2.f {
+    color: crimson;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h3.f {
+    color: crimson;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+/* Palavras em destaque (Definição, Próprias, a, b...) */
+b.f {
+    color: red;
+}
+
+/* ===== TEXTO ===== */
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;        /* sem bolinhas, para ficar centralizado */
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+p.conta {
+    font-size: 26px;
+}
+/* ===== FRAÇÕES ===== */
+math {
+    font-size: 1.5em;
+}
+/* ===== LINKS ===== */
+a {
+    display: inline-block;
+    font-style: oblique;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4dc3ff;
+    border: 3px solid #4dc3ff;
+    background-color: black;
+    margin: 6px;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus-visible {
+    border: red solid;
+    color: red;
+    box-shadow: 0 0 10px red;
+    border-radius: 100px;
+    box-shadow: 0 0 10px #ff4d4d;
+
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    padding: 30px 0;
+    border-top: 2px solid #00aaff;
+    box-shadow: 0 0 40px #00aaff;
+}
