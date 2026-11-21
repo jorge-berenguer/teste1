@@ -23,21 +23,21 @@ main {
 }
 
 /* ===== TÍTULOS ===== */
-h1.f {
+h1.c {
     font-size: 60px;
     color: red;
     padding: 30px 0 10px;
     text-shadow: 0 0 15px red;
 }
 
-h2.f {
+h2.c {
     color: crimson;
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 10px;
 }
 
-h3.f {
+h3.c {
     color: crimson;
     font-size: 24px;
     margin-top: 30px;
@@ -45,7 +45,7 @@ h3.f {
 }
 
 /* Palavras em destaque (Definição, Próprias, a, b...) */
-b.f {
+b.c {
     color: red;
 }
 
